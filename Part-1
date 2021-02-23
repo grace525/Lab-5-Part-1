@@ -1,0 +1,31 @@
+//Grace Geer
+//Lab 5 Part 1 code
+
+int Pin = 8;
+int sound = 90;
+int pause = (sound*2);
+
+
+void setup(){
+
+for (int duration = 0; duration < 1; duration++) { 
+  
+  tone(Pin, 50, sound);
+  delay(pause);
+
+  tone(Pin, 500, sound);
+  delay(pause);
+
+  tone(Pin, 3000, sound);
+  delay(pause);
+
+}
+
+}
+
+void loop(){
+
+
+
+}
+
